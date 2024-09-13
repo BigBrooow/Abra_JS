@@ -14,6 +14,6 @@ module.exports = defineConfig({
                 return res.rows;
             }})
         },
-    baseUrl: 'http://34.141.58.52:8000/'
+    baseUrl: ''
     },
 }); 
