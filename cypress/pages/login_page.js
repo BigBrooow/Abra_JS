@@ -10,11 +10,11 @@ class LoginPage {
     }
 
     fill_email() {
-        this.elements.email_field().type('seller@gmail.com');
+        this.elements.email_field().type('');
     }
 
     fill_password() {
-        this.elements.password_field().type('Password1!');
+        this.elements.password_field().type('!');
         this.elements.email_field().click();
     }
 
